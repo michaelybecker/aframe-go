@@ -1,0 +1,21 @@
+{
+  "name": "aframe-boilerplate",
+  "version": "0.0.1",
+  "description":
+    "A simple A-frame boilerplate with environment and vive controls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo ./src/app.js:static/bundle.js --live"
+  },
+  "author": "Michael Hazani",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^10.0.4"
+  },
+  "dependencies": {
+    "aframe": "^0.7.0",
+    "aframe-environment-component": "^1.0.0",
+    "aframe-webvr-controller": "0.0.7"
+  }
+}
